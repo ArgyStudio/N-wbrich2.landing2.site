@@ -11,14 +11,14 @@
   /* Coral para la R */
   --color-r:  #F5B041;       
     /* === PROMOCION === */
-  --promocion-font-size:     1.1rem;
+  --promocion-font-size:     1rem;
   --promocion-font-weight:   600;
   --promocion-color:         #e9dbdd;    /* <- aquí pones tu color personalizado */
   --promocion-margin-bottom: 0.5rem;
   --promocion-shadow-mid:    #000000;
   --promocion-text-shadow: 
     0 0 1px var(--promocion-color),
-    0 0 8px var(--promocion-color),
+    0 0 4px var(--promocion-color),
     0 0 15px var(--promocion-shadow-mid);
 
 
@@ -37,7 +37,7 @@
   --bg-dark:      #386887;   /* azul profundo oscuro (aprox. 60% del brillo) */
   --bg-light:     #4A8AB4;   /* azul medio-oscuro (aprox. 80% del brillo) */
   --accent-mid:   #5DADE2;   /* azul cielo suave (tu color base) */
-  --accent-light: #AED6F0;   /* azul muy claro */
+  --accent-light: #214980;   /* azul muy claro */
 
   /* Textos blancos suaves */
   --white:        #f0faf5;              /* blanco con un leve matiz verde claro */
@@ -151,7 +151,7 @@ background: linear-gradient(
 .title {
   font-size: 1.75rem;
   font-weight: 800;
-  color: var(--accent-light);
+  color: #5DADE2;;
   text-shadow:
     2px 2px 4px rgba(0,0,0,0.9),
     0    0    9px var(--accent-mid);
@@ -206,7 +206,7 @@ background: linear-gradient(
 
 
 
-.subtitle .fire {
+.title .fire {
   display: inline-block;
   width: 25px;
   height: 25px;
@@ -608,8 +608,8 @@ input[type="text"]:-ms-input-placeholder {
 /*logo*/
 .logo {
   /* Tamaño fijo para reservar el espacio */
-  width: 160px;
-  height: 160px;
+  width: 110px;
+  height: 110px;
 
   /* Bordes redondeados y recorte de la imagen interna */
   border-radius: 50%;
